@@ -7,7 +7,7 @@ export const  App=()=> {
   const [room,setRoom]= useState(0)
   const [adult,setAdult]= useState(0)
   const [child,setChild]= useState(0)
-  const [countroom,setcountRoom]= useState(0)
+  
   const handleroomi=()=>{
     setRoom(room +1)
   }
